@@ -1,5 +1,7 @@
 # test_v-model_type
 
+https://github.com/vuejs/language-tools/issues/5230
+
 This repository is used to provide a minimal demo for testing v-model type detection.
 
 I originally wanted to test the ts2322 error in the case of `<InputText v-model="value" />`. However, after switching the display language in VSCode once to copy the English error message, I could no longer reproduce the error!!!
