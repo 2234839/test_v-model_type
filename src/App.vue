@@ -6,4 +6,5 @@
 
 <template>
   <InputText v-model="value" />
+  <InputText :model-value="value" @update:model-value="value = $event" />
 </template>
