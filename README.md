@@ -1,4 +1,3 @@
-```md README.md (1-15)
 # test_v-model_type
 
 This repository is used to provide a minimal demo for testing v-model type detection.
@@ -14,4 +13,3 @@ Type 'string | undefined' is not assignable to type 'string'.
 ```
 
 The situation I encountered earlier was that `<InputText v-model="value" />` would also report the above error, but now I can no longer reproduce it. So I want to know whether `<InputText v-model="value" />` should actually report the error ts-plugin(2322).
-```
